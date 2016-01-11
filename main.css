@@ -1,1 +1,87 @@
-/* ADD YOUR STYLES HERE */
+tr {
+	border-bottom: 2px solid;
+}
+
+td {
+	padding-right: 100px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.header {
+	//font-weight: bold;
+}
+
+.stat-number {
+	font-size: 200%;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.stat-label {
+	font-size: 75%;
+	opacity: .5;
+	padding-bottom: 10px;
+}
+
+.stat-tr {
+	border-top: 2px solid; 
+}
+
+.bar-graph td {
+	width: 100vw;
+}
+
+.bar-graph tr {
+	border: 0px;
+}
+
+.bar-graph div {
+	background-color: teal;
+	color: white;
+}
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	height: 100vh;
+	width: 100vw;
+}
+
+.lightbox-content {
+	position: relative;
+	margin: 30vh 10vw;
+	padding: 10vh;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.lightbox a {
+	position: absolute;
+	right: 2vh;
+	background-color: salmon;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.media.content {
+	display: block;
+	position: relative;
+	//margin-left: 60px;
+	padding-left: 60px;
+}
+
+.media .media {
+	margin-left: 50px;
+	display: block;
+}
+
+.media.img {
+	float: left;
+	padding-right: 10px;
+}
